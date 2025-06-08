@@ -13,6 +13,12 @@ namespace mySQLexe
         {
             agants agants = new agants();
             employeesDHL dhl = new employeesDHL();
+            dhl.addAgant(agants);
+            agants.Location = "a";
+            agants.Status = "b";
+            agants.CodeName = "t";
+            agants.RealName = "i";
+            agants.MissionsCompleted = 2;
         }
     }
 }
